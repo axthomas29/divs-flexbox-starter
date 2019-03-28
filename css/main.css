@@ -102,32 +102,39 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Playfair Display', serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #ffffff;
+  font-weight: 400;
+  color: #3973ac;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
   justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  height: 100%;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 1em;
 }
 
+.div-2 {
+  border-left: 0.1em solid #8cb3d9;
+  border-right: 0.1em solid #8cb3d9;
+}
 
 
 
