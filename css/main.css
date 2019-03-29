@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  font-size: 16px;
 }
 
 body {
@@ -106,9 +107,42 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background-color: #ffffff;
   font-weight: 400;
-  color: #3973ac;
+  color: #ffffff;
+  background-image: url('https://images.pexels.com/photos/386148/pexels-photo-386148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+header,
+footer,
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+footer {
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  height: 15%;
+  width: 100%;
+  font-size: 1.25em;
+  flex: 1 10 250px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+header {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+header span {
+  font-weight: 400;
 }
 
 .wrapper {
@@ -121,21 +155,25 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
 
   line-height: 1.5em;
-  font-size: 1.6em;
-  height: 100%;
+  font-size: 1.25em;
+  height: auto;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 1em;
+  background-color: rgb(178, 183, 202, 0.5);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
-.div-2 {
-  border-left: 0.1em solid #8cb3d9;
-  border-right: 0.1em solid #8cb3d9;
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.75em;
+  font-weight: 200;
 }
-
 
 
 /* ==========================================================================
